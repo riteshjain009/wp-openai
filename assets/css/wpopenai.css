@@ -1,0 +1,106 @@
+div#wpopenai-plugin-container {
+    padding: 40px;
+    max-width: 600px;
+}
+.generate-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+    position: relative;
+}
+.generate-container .image-div img {
+    max-width: 38px;
+}
+.generate-container .image-div {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #ffffffc2;
+    text-align: center;
+}
+.generate-container > button {
+    padding: 8px 10px 10px;
+    cursor: pointer;
+    background: no-repeat;
+    border: solid 1px #007cba;
+    border-radius: 4px;
+    color: #007cba;
+    transition: all 0.35s ease-in-out;
+}
+.generate-container > button:hover {
+    background: #007cba;
+    color: #fff;
+}
+
+#open_AI_generate_box .postbox-header h2{pointer-events: none;}
+#open_AI_generate_box .handle-order-lower, #open_AI_generate_box .handle-order-higher {
+    display: none;
+}
+img.wpopenai-masthead__logo {
+    width: 200px;
+    text-align: center;
+}
+.error_message {
+    margin-top: 10px;
+    background-color: #dc3545;
+    padding: 5px;
+    color: #fff;
+}
+.error_message a {
+    color: #fff;
+}
+#gpt_option_form input[type="text"]{
+    box-sizing: border-box;
+    height: 40px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #fff;
+    border-color: #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.1);
+    border-radius: 6px;
+    color: #344054;
+}
+#gpt_option_form input[type="text"]:focus, #gpt_option_form select.visi-selectbox:focus {
+    box-shadow: 0px 1px 2px rgba(36, 57, 92, 0.2);
+    border: 1px solid rgba(36, 57, 92, 0.5);
+}
+#gpt_option_form .post_type_container .selectbox_row {
+    margin-bottom: 10px;
+    display: flex;
+}
+#gpt_option_form label.posttype_label {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+#gpt_option_form select.visi-selectbox {
+    width: 130px;
+    background-image: url("../images/icon-chevron-down.svg");
+    padding: 4px 0px 4px 10px;
+    background-position: right 10px top 50%;
+    background-size: 20px;
+}
+#gpt_option_form input[type="submit"] {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: baseline;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+#gpt_option_form input[type="submit"]:hover {
+    background: #135e96;
+    border-color: #135e96;
+}
